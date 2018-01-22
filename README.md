@@ -15,18 +15,16 @@ How to use it:
  1. Create 1 or many Puzzle GameObjects by adding the Puzzle script onto any GameObject
  
  2. Select which type of object you want either Rotation or PressurePad
-    
-    a) If PressurePad is selected add the IsTriggerable script onto the GameObject (can add the PressurePadDownAction script on the PressurePad for a small visual effect of it going down for demo purposes)
-
-Populate the IsTriggerable values:	
-	    i)   Key: Puzzle (This is not required to be filled in, side note: a Puzzle script will be added to the GameObject when the key is filled in with Puzzle (not case sensitive) if it's not found)
-	    ii)  Call Back : Pressed
-	    iii) Touch Type : IsaPlayer
-    
-    b) If Rotation is selected add the IsRotateable script onto the GameObject
-	  Populate the IsRotateable values:	
-	    i)  Key: Puzzle
-	    ii) Call Back: Rotate
+ 
+ 	a) If PressurePad is selected add the IsTriggerable script onto the GameObject (can add the PressurePadDownAction script on the PressurePad for a small visual effect of it going down for demo purposes)
+ Populate the IsTriggerable values:	
+ 	i)   Key: Puzzle (This is not required to be filled in, side note: a Puzzle script will be added to the GameObject when the key is filled in with Puzzle (not case sensitive) if it's not found)
+ 	ii)  Call Back : Pressed
+ 	iii) Touch Type : IsaPlayer
+ b) If Rotation is selected add the IsRotateable script onto the GameObject
+ Populate the IsRotateable values:	
+ 	i)  Key: Puzzle
+ 	ii) Call Back: Rotate
 
  2. Have a Gameobject that is contains the PuzzleSolver script, this is the object that will have a solved action occur when the puzzle is completed.  
     (Example: A door has the PuzzleSolver and when the puzzle is completed the door opens)
