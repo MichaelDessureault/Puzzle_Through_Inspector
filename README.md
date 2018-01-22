@@ -16,12 +16,15 @@ How to use it:
  
  2. Select which type of object you want either Rotation or PressurePad
  
- 	a) If PressurePad is selected add the IsTriggerable script onto the GameObject (can add the PressurePadDownAction script on the PressurePad for a small visual effect of it going down for demo purposes)
+ a) If PressurePad is selected add the IsTriggerable script onto the GameObject (can add the PressurePadDownAction script on the PressurePad for a small visual effect of it going down for demo purposes)
+ 
  Populate the IsTriggerable values:	
  	i)   Key: Puzzle (This is not required to be filled in, side note: a Puzzle script will be added to the GameObject when the key is filled in with Puzzle (not case sensitive) if it's not found)
  	ii)  Call Back : Pressed
  	iii) Touch Type : IsaPlayer
+ 
  b) If Rotation is selected add the IsRotateable script onto the GameObject
+ 
  Populate the IsRotateable values:	
  	i)  Key: Puzzle
  	ii) Call Back: Rotate
@@ -30,7 +33,9 @@ How to use it:
     (Example: A door has the PuzzleSolver and when the puzzle is completed the door opens)
 
  3. Update the set the Required Solved State field to what is wanted.  
+    
     i) PressurePad objects will see a bool for on and off
+    
     ii) Rotation objects will see an enum of 4 rotation states (Font, Right, Back, Left)
 
  4. Add a SolvedAction to PuzzleSolver GameObject
