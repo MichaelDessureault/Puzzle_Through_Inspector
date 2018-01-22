@@ -30,9 +30,7 @@ How to use it:
     (Example: A door has the PuzzleSolver and when the puzzle is completed the door opens)
 
  3. Update the set the Required Solved State field to what is wanted.  
-    
     i) PressurePad objects will see a bool for on and off
-    
     ii) Rotation objects will see an enum of 4 rotation states (Font, Right, Back, Left)
 
  4. Add a SolvedAction to PuzzleSolver GameObject
