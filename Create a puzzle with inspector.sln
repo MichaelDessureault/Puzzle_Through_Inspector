@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create a puzzle with inspector", "Create a puzzle with inspector.csproj", "{CDEA15C2-2856-4A57-2C47-60089DFA6304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create a puzzle with inspector.Editor", "Create a puzzle with inspector.Editor.csproj", "{9253B41E-4058-57AF-0D3E-4AB9D4F83D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDEA15C2-2856-4A57-2C47-60089DFA6304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEA15C2-2856-4A57-2C47-60089DFA6304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEA15C2-2856-4A57-2C47-60089DFA6304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEA15C2-2856-4A57-2C47-60089DFA6304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9253B41E-4058-57AF-0D3E-4AB9D4F83D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9253B41E-4058-57AF-0D3E-4AB9D4F83D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9253B41E-4058-57AF-0D3E-4AB9D4F83D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9253B41E-4058-57AF-0D3E-4AB9D4F83D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
